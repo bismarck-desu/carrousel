@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>pratica5</title>
+<link href="css/bootstrap-4.0.0.css" rel="stylesheet" type="text/css">
+<link href="estilo.css" rel="stylesheet" type="text/css">
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/Rollover211.png','imagenes/Rollover222.png','imagenes/Rollover312.png','imagenes/Rollover412.png','imagenes/Rollover512.png')">
+<div id="menufijo"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image8','','imagenes/Rollover211.png',1)"><img src="imagenes/Rollover21.png" alt="" width="97" height="112" id="Image8"></a><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image9','','imagenes/Rollover222.png',1)"><img src="imagenes/Rollover22.png" alt="" width="98" height="112" id="Image9"></a><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image10','','imagenes/Rollover312.png',1)"><img src="imagenes/Rollover31.png" alt="" width="96" height="112" id="Image10"></a><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image11','','imagenes/Rollover412.png',1)"><img src="imagenes/Rollover41.png" alt="" width="90" height="112" id="Image11"></a><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image12','','imagenes/Rollover512.png',1)"><img src="imagenes/Rollover51.png" alt="" width="95" height="112" id="Image12"></a></div>
+<div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel" style="background-color: whitesmoke">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators1" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
+	<li data-target="#carouselExampleIndicators1" data-slide-to="2"></li>
+	<li data-target="#carouselExampleIndicators1" data-slide-to="3"></li>
+	<li data-target="#carouselExampleIndicators1" data-slide-to="4"></li>
+	<li data-target="#carouselExampleIndicators1" data-slide-to="5"></li>
+    <li data-target="#carouselExampleIndicators1" data-slide-to="6"></li>
+  </ol>
+  <div class="carousel-inner" role="listbox">
+    <div class="carousel-item active"> <img class="d-block mx-auto" src="imagenes/carousel1.jpg" alt="First slide">
+      <div class="carousel-caption">
+        <h5>Mangos para disfrutar</h5>
+        <p>De origen asiático, el mango llegó</p>
+      </div>
+    </div>
+    <div class="carousel-item"> <img class="d-block mx-auto" src="imagenes/carousel2.jpg" alt="Second slide">
+      <div class="carousel-caption">
+        <h5>Mango Manila</h5>
+        <p>Su dulce sabor y textura suave sin fibras hace que sean inigualables. Su color amarillo canario y la finura de la pulpa los hace ideales para postres.</p>
+      </div>
+    </div>
+	<div class="carousel-item"> <img class="d-block mx-auto" src="imagenes/carousel3.jpg" alt="tirth slide">
+      <div class="carousel-caption">
+        <h5>Mango Manila</h5>
+        <p>Su dulce sabor y textura suave sin fibras hace que sean inigualables. Su color amarillo canario y la finura de la pulpa los hace ideales para postres.</p>
+      </div>
+    </div>
+	<div class="carousel-item"> <img class="d-block mx-auto" src="imagenes/carousel4.jpg" alt="fourth slide">
+      <div class="carousel-caption">
+        <h5>Mango Ataúlfo</h5>
+        <p>Si te gustan los mangos suaves y cremosos con pulpa firme, este es el ideal para ti. Son de un color amarillo canario y de una forma pequeña y ovalada. Son ideales para comer rebanados.</p>
+      </div>
+    </div>
+	<div class="carousel-item"> <img class="d-block mx-auto" src="imagenes/carousel5.jpg" alt="fifth slide">
+      <div class="carousel-caption">
+        <h5>Mango Champagne</h5>
+        <p>De color y forma similar al manila, este mango tiene la piel más gruesa y su sabor no es tan delicado. Es ideal para platillos salados, salsas y conservas, gracias a su firmeza.</p>
+      </div>
+    </div>
+	<div class="carousel-item"> <img class="d-block mx-auto" src="imagenes/carousel6.jpg" alt="Sixth slide">
+      <div class="carousel-caption">
+        <h5>Mango Kent</h5>
+        <p>Su pulpa suave y fibras limitadas lo hacen ideal para acompañar ensaladas o para rebanar. De gran jugosidad y sabor, aportan un toque dulce a tus platillos.</p>
+      </div>
+    </div>
+    <div class="carousel-item"> <img class="d-block mx-auto" src="imagenes/carousel7.jpg" alt="seventh slide">
+      <div class="carousel-caption">
+        <h5>Mango Tommy Atkins</h5>
+        <p>Third slide Caption</p>
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators1" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#carouselExampleIndicators1" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div>
+<div id="texto">
+	<h3>6 tipos de mango para disfrutar esta temporada</h3>
+	<p>Sabor y colorido para disfrutar esta temporada. Un extranjero que se ha convertido en parte fundamental del folclor culinario. De origen asiático, el mango llegó a México a través de la conquista española y ahora es una fruta representativa del país.Caminando por las bellas calles de la ciudad seguramente has disfrutado de un gigante vaso de mango con chile o una pieza completa cortada a manera de flor, cubierta de nuestro tradicional chile piquín, algo muy típico de nuestra cultura gastronómica. Te dejamos una lista de los más consumidos en México, para que apoyes el consumo local y le des un giro a tus recetas favoritas.</p>
+	
+	
+	<h3>Manila</h3>
+	<p>Es el número uno en la lista de favoritos por los consumidores. Su dulce sabor y textura suave sin fibras hace que sean inigualables. Su color amarillo canario y la finura de la pulpa los hace ideales para postres. Si se compran verdes, pueden ser perfectos para ceviches y cocteles que necesiten un toque de acidez.</p></div>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap-4.0.0.js"></script>
+</body>
+</html>
